@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Arena - Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Game Arena</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:text-blue-600">Home</a>
+        <a href="product.html" class="hover:text-blue-600 font-semibold">Products</a>
+        <a href="cart.html" class="hover:text-blue-600">Cart</a>
+        <a href="contact.html" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-3xl font-semibold mb-6">Featured Products</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/14/6229473/1.jpg" alt="Gaming Laptop X" class="w-full h-48 object-cover mb-4 rounded" />
+        <h3 class="text-xl font-bold">Gaming Laptop X</h3>
+        <p class="text-gray-600">High performance laptop for all your gaming needs.</p>
+        <p class="mt-2 font-semibold">$ 1299</p>
+        <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Add to Cart</button>
+      </div>
+
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/63/1435982/1.jpg" alt="Epic Game 5" class="w-full h-48 object-cover mb-4 rounded" />
+        <h3 class="text-xl font-bold">Epic Game 5</h3>
+        <p class="text-gray-600">Immersive gameplay and stunning graphics.</p>
+        <p class="mt-2 font-semibold">$ 59</p>
+        <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Add to Cart</button>
+      </div>
+
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="https://5.imimg.com/data5/TM/WY/MY-11129613/c-1000x1000.jpg" alt="Gaming Headset" class="w-full h-48 object-cover mb-4 rounded" />
+        <h3 class="text-xl font-bold">Gaming Headset</h3>
+        <p class="text-gray-600">Crystal-clear audio and comfort for long sessions.</p>
+        <p class="mt-2 font-semibold">$ 79</p>
+        <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Add to Cart</button>
+      </div>
+
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="https://magnumdealz.com/wp-content/uploads/2023/08/s-l600.jpg" alt="Pro Gaming Mouse" class="w-full h-48 object-cover mb-4 rounded" />
+        <h3 class="text-xl font-bold">Pro Gaming Mouse</h3>
+        <p class="text-gray-600">Precision control with customizable buttons.</p>
+        <p class="mt-2 font-semibold">$ 49</p>
+        <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-white shadow mt-12">
+    <div class="max-w-7xl mx-auto px-4 py-6 text-center text-gray-500">
+      &copy; <span id="year"></span> Game Arena. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
